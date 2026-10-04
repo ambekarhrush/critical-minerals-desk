@@ -1,0 +1,43 @@
+CHECKED = "2026-10-04"
+
+PROJECTS = [
+    {
+        "id": "mountain-pass", "name": "Mountain Pass", "company": "MP Materials",
+        "ticker": "NYSE: MP", "country": "United States", "stage": "Operating",
+        "chain": "Mine + separation", "materials": ["Nd", "Pr"],
+        "volume": 2599, "basis": "Actual output", "period": "Calendar 2025",
+        "unit": "tonnes NdPr oxide", "published": "2026-02-26",
+        "source": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+        "source_title": "MP Materials — FY2025 results",
+        "fact": "The company reported 2,599 tonnes of NdPr oxide production in 2025, up 101% year on year.",
+        "view": "Operating separation provides measurable execution evidence. Evaluate the ramp using separated oxide output rather than total concentrate tonnage.",
+        "question": "How much of the improvement in economics depends on contractual price support?",
+        "gaps": ["Latest quarterly operating costs not normalized", "Current net debt and dilution not incorporated", "Mine-level standalone economics not modeled"],
+    },
+    {
+        "id": "nolans", "name": "Nolans", "company": "Arafura Rare Earths",
+        "ticker": "ASX: ARU", "country": "Australia", "stage": "Development",
+        "chain": "Planned mine + separation", "materials": ["Nd", "Pr"],
+        "volume": 4440, "basis": "Planned capacity", "period": "Nameplate annual target",
+        "unit": "tonnes NdPr oxide / year", "published": None,
+        "source": "https://www.arultd.com/projects/nolans/project-update/",
+        "source_title": "Arafura — Nolans project update",
+        "fact": "The project update states nameplate capacity of 4,440 tonnes of NdPr oxide per annum.",
+        "view": "The capacity target describes potential supply. Realization depends on construction, commissioning and the ramp to specification.",
+        "question": "What evidence supports the construction schedule and funding available through ramp-up?",
+        "gaps": ["Webpage publication date unavailable", "Latest construction milestone review pending", "Full current funding waterfall not captured"],
+    },
+    {
+        "id": "eneabba", "name": "Eneabba", "company": "Iluka Resources",
+        "ticker": "ASX: ILU", "country": "Australia", "stage": "Construction",
+        "chain": "Refining", "materials": ["Nd", "Pr", "Dy", "Tb"],
+        "volume": None, "basis": "Not normalized", "period": "Company targets 2027 commissioning",
+        "unit": "NdPr output not captured", "published": "2026-06-23",
+        "source": "https://www.iluka.com/media/pltderpq/23jun26-iluka-rare-earths-update.pdf",
+        "source_title": "Iluka — Rare earths update, 23 June 2026",
+        "fact": "Iluka reported the refinery over 50% complete, with mid-2027 commissioning planned and a capital estimate of A$1.7–1.8 billion.",
+        "view": "Refining capacity addresses a different part of the chain from mining. Feedstock and customer qualification belong alongside the construction timetable.",
+        "question": "How will feedstock availability and offtake terms translate into refinery utilization?",
+        "gaps": ["NdPr-only capacity not normalized", "Current offtake coverage not quantified", "AUD capital cannot be compared with USD without a dated FX rate"],
+    },
+]
